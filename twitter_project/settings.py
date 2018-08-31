@@ -29,7 +29,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['redsquare-twitter.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['redsquare-twitter.herokuapp.com','localhost:8000']
 
 
 # Application definition
